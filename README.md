@@ -102,7 +102,6 @@ TCDT_C – additional temperature channel (°C), see metadata
 ([Ahajjam et al., 202X, Alaska-COLD data set, DOI: 10.XXXX/XXXX])  
 is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
 You are free to share and adapt the data, provided you give appropriate credit to the creators.  
-See `LICENSE_DATA` for details.
 
 
 ## 5. Funding and acknowledgements
