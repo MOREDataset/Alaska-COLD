@@ -1,5 +1,5 @@
 <p align="center">
- <img src="UNDlogo.png" width="180" align="middle"/> <img src="ArcticLablogo.png" width="100" align="middle"/>
+ <img src="UNDlogo.svg" width="180" align="middle"/> <img src="ArcticLablogo.png" width="100" align="middle"/>
 </p>
 
 # Alaska-COLD: Hourly Air and Soil Temperature Observations from Interior and Northern Alaska (2023–2025)
