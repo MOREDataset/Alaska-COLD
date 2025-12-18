@@ -55,10 +55,10 @@ The Alaska-COLD network consists of 12 monitoring sites spanning interior and no
 Site-level time series are stored as:
 
 ```
-data/Alaska-COLD_Site3.csv
-data/Alaska-COLD_Site4.csv
+Data/Alaska-COLD_Site3.csv
+Data/Alaska-COLD_Site4.csv
 ...
-data/Alaska-COLD_Site18.csv
+Data/Alaska-COLD_Site18.csv
 ```
 ### 3.2 Standardized column names
 
