@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="UNDlogo.PNG" width="180" align="middle"/> <img src="ArcticLablogo.PNG" width="100" align="middle"/>
+</p>
+
 # Alaska-COLD: Hourly Air and Soil Temperature Observations from Interior and Northern Alaska (2023–2025)
 
 This repository hosts the **Alaska Coupled Observations of Land–atmosphere Dynamics (Alaska-COLD)** dataset and companion code. Alaska-COLD provides multi-year, hourly air and soil temperature records from a network of 12 monitoring sites across interior and northern Alaska (64–70°N), spanning boreal forest and Arctic tundra and both discontinuous and continuous permafrost.
