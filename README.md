@@ -37,18 +37,18 @@ The Alaska-COLD network consists of 12 monitoring sites spanning interior and no
 
 | Site name (ID)                   | Latitude (°N) | Longitude (°; negative = west) | Elevation (m a.s.l.)¹ | Record period (start–end)     | Soil depths (cm; probes 1–4)      |
 |----------------------------------|---------------|----------------------------------|------------------------|--------------------------------|-----------------------------------|
-| Southern Brooks Foothills (3)   | 66.48         | -150.69                         | 610.4                  | 05 Aug 2023 – 27 Jul 2025      | 0, 13.9, 29.2, 45.1               |
-| Koyukuk Uplands Central (4)     | 65.79         | -149.44                         | 335.06                 | 08 Aug 2023 – 30 Jul 2025      | 0, 12.4, 26.8, 40.9               |
-| Koyukuk Uplands East (5)        | 65.79         | -149.39                         | 496.64                 | 09 Aug 2023 – 27 Jul 2025      | 0, 18.7, 39.9, 59.8               |
-| Koyukuk Uplands Southeast (6)   | 65.71         | -149.20                         | 235.96                 | 11 Aug 2023 – 30 Jul 2025      | 0, 16.0, 31.9, 48.3               |
-| Koyukuk Uplands West (7)        | 65.82         | -149.57                         | 493.59                 | 10 Aug 2023 – 08 May 2024      | 0, 16.7, 33.2, 49.4               |
-| North Slope Central (9)         | 69.45         | -148.63                         | 227.28                 | 02 Aug 2023 – 28 Jul 2025      | 0, 8.0, 21.0, 34.0                |
-| Central Brooks Foothills (10)   | 66.13         | -150.17                         | 244.60                 | 24 Jul 2024 – 27 Jul 2025      | 0, 24.2, 47.0, 69.8               |
-| Tanana Highlands (11)           | 65.41         | -145.58                         | 706.34                 | 12 Aug 2023 – 26 Jul 2025      | 0, 18.9, 37.1, 55.3               |
-| North Slope Southwest (13)      | 69.39         | -148.73                         | 291.92                 | 03 Aug 2023 – 28 Jul 2025      | 0, 8.4, 19.6, 31.5                |
-| Northern Brooks Foothills (14)  | 66.89         | -150.51                         | 357.81                 | 04 Aug 2023 – 24 Jul 2024      | 0, 24.0, 48.0, 72.0               |
-| North Slope North (15)          | 69.58         | -148.67                         | 145.41                 | 11 Jan 2025 – 29 Jul 2025      | 0, 10.5, 23.0, 34.5               |
-| North Slope East (18)           | 69.53         | -148.59                         | 162.18                 | 23 Jul 2024 – 28 Jul 2025      | 0, 12.33, 24.67, 37.0             |
+| Southern Brooks Foothills (3)   | 66.488259         | -150.695732                         | 610.4                  | 05 Aug 2023 – 27 Jul 2025      | 0, 13.9, 29.2, 45.1               |
+| Koyukuk Uplands Central (4)     | 65.798635         | -149.4432                         | 335.06                 | 08 Aug 2023 – 30 Jul 2025      | 0, 12.4, 26.8, 40.9               |
+| Koyukuk Uplands East (5)        | 65.789522         | -149.395576                         | 496.64                 | 09 Aug 2023 – 27 Jul 2025      | 0, 18.7, 39.9, 59.8               |
+| Koyukuk Uplands Southeast (6)   | 65.717295         | -149.204995                         | 235.96                 | 11 Aug 2023 – 30 Jul 2025      | 0, 16.0, 31.9, 48.3               |
+| Koyukuk Uplands West (7)        | 65.819491         | -149.571774                         | 493.59                 | 10 Aug 2023 – 08 May 2024      | 0, 16.7, 33.2, 49.4               |
+| North Slope Central (9)         | 69.452173         | -148.638054                         | 227.28                 | 02 Aug 2023 – 28 Jul 2025      | 0, 8.0, 21.0, 34.0                |
+| Central Brooks Foothills (10)   | 66.138147         | -150.173456                         | 244.60                 | 24 Jul 2024 – 27 Jul 2025      | 0, 24.2, 47.0, 69.8               |
+| Tanana Highlands (11)           | 65.417338         | -145.586821                         | 706.34                 | 12 Aug 2023 – 26 Jul 2025      | 0, 18.9, 37.1, 55.3               |
+| North Slope Southwest (13)      | 69.389001         | -148.735198                         | 291.92                 | 03 Aug 2023 – 28 Jul 2025      | 0, 8.4, 19.6, 31.5                |
+| Northern Brooks Foothills (14)  | 66.894138         | -150.515111                         | 357.81                 | 04 Aug 2023 – 24 Jul 2024      | 0, 24.0, 48.0, 72.0               |
+| North Slope North (15)          | 69.579838         | -148.670741                         | 145.41                 | 11 Jan 2025 – 29 Jul 2025      | 0, 10.5, 23.0, 34.5               |
+| North Slope East (18)           | 69.529292         | -148.593929                         | 162.18                 | 23 Jul 2024 – 28 Jul 2025      | 0, 12.33, 24.67, 37.0             |
 
 ¹ Elevation in metres above sea level (m a.s.l.).
 
@@ -98,7 +98,7 @@ Pressure_mbar_Avg – average air pressure (mbar)
 
 RelativeHumidity_pct – relative humidity (%)
 
-TCDT_C – additional temperature channel (°C), see metadata
+TCDT_m – Temperature-Corrected Surface Distance (m)
 
 ## 4. License
 
