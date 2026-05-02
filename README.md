@@ -103,7 +103,7 @@ TCDT_m – Temperature-Corrected Surface Distance (m)
 ## 4. License
 
 **Data.** The Alaska-COLD dataset in this repository and in the archival repository  
-([Ahajjam et al., 202X, Alaska-COLD data set, DOI: 10.XXXX/XXXX])  
+([Ahajjam et al., 2025, Alaska-COLD dataset, DOI: 10.5281/zenodo.17980271)  
 is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
 You are free to share and adapt the data, provided you give appropriate credit to the creators.  
 
