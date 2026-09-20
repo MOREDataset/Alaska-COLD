@@ -83,7 +83,7 @@ Permafrost zones follow the Alaska classification of [Jorgenson et al. (2008), *
 
 The summer visit date applies to the soil-moisture spot readings and frost-probe thaw-depth measurements. Measurements were collected in August 2023 at DBSF03, DYTF04, DYTF05, DYTF06, DYTF07, DBNF09, DBSF10, DYTF11, DBNF13, and DBSF14, and in July 2024 at DNSF15 and DNSF18. The exact July sampling days were not recorded in the supplied field table. The snow columns report site means from measurements collected during the January 2024 and January 2025 visits.
 
-| **Station ID** | **Summer visit** | **Soil-moisture spot readings (%; material and nominal depth)** | **Frost-probe thaw depth: mean [range] (cm), *n* **| **Jan 2024 mean snow depth / density (cm / kg m⁻³)** | **Jan 2025 mean snow depth / density (cm / kg m⁻³)** |
+| **Station ID** | **Summer visit** | **Soil-moisture spot readings (%; material and nominal depth)** | **Frost-probe thaw depth: mean [range] (cm), n**| **Jan 2024 mean snow depth / density (cm / kg m⁻³)** | **Jan 2025 mean snow depth / density (cm / kg m⁻³)** |
 |---|---|---|---:|---:|---:|
 | DNSF15 | 2024-07, day not recorded | No readings reported | 32.0 [30.0-34.5], *n* = 10 | Not measured | 28.5 / 201.5 |
 | DNSF18 | 2024-07, day not recorded | No readings reported | 39.0 [29.5-49.5], *n* = 10 | Not measured | 28.7 / 239.3 |
