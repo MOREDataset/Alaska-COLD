@@ -38,7 +38,20 @@ All published timestamps are in Coordinated Universal Time (UTC).
   <img src="DatasetLocationsV3.jpg" alt="Map of Alaska-COLD monitoring stations" />
 </p>
 
-### 2.1 Monitoring configuration
+### 2.1 Station identification convention
+
+Station identifiers follow the format `AXXY##`, where:
+
+| Component | Meaning | Codes |
+|---|---|---|
+| `A` | Network owner | `D` = University of North Dakota |
+| `XX` | Geographic region | `BN` = Brooks Range Northern Foothills; `BS` = Brooks Range Southern Foothills; `YT` = Yukon–Tanana Uplands; `NS` = North Slope Coastal Plain |
+| `Y` | Primary station purpose | `F` = permafrost station; `M` = meteorology station |
+| `##` | Station number | Original two-digit station number |
+
+For example, `DBSF03` identifies University of North Dakota station 03, located in the Brooks Range Southern Foothills, whose primary purpose is permafrost monitoring. The letter `F` is used for permafrost because `P` was already assigned to power-related stations in the broader station-naming system.
+
+### 2.2 Site characteristics and monitoring configuration
 
 Sites are ordered from north to south. P2-P4 values are vertical offsets downward from P1. Negative longitude denotes west.
 
@@ -57,8 +70,6 @@ Sites are ordered from north to south. P2-P4 values are vertical offsets downwar
 | Yukon-Tanana Uplands | DYTF06 | 65.717295 | -149.204995 | 235.96 | 2023-08-11 to 2026-08-10 | 1.60 | Within organic layer | 16.0, 31.9, 48.3 |
 | Yukon-Tanana Uplands | DYTF11 | 65.417338 | -145.586821 | 706.34 | 2023-08-13 to 2026-08-06 | 1.00 | Dead-moss layer | 18.9, 37.1, 55.3 |
 
-
-### 2.2 Ecological and subsurface characteristics
 
 Vegetation descriptions and height ranges are local field observations. 
 
@@ -79,9 +90,8 @@ Vegetation descriptions and height ranges are local field observations.
 
 Permafrost zones follow the Alaska classification of [Jorgenson et al. (2008), *Permafrost Characteristics of Alaska*](https://dggs.alaska.gov/pubs/id/29801).
 
-### 2.3 Field measurements by station and visit
 
-The summer visit date applies to the soil-moisture spot readings and frost-probe thaw-depth measurements. Measurements were collected in August 2023 at DBSF03, DYTF04, DYTF05, DYTF06, DYTF07, DBNF09, DBSF10, DYTF11, DBNF13, and DBSF14, and in July 2024 at DNSF15 and DNSF18. The exact July sampling days were not recorded in the supplied field table. The snow columns report site means from measurements collected during the January 2024 and January 2025 visits.
+The summer visit date applies to the soil-moisture spot readings and frost-probe thaw-depth measurements. Measurements were collected in August 2023 at DBSF03, DYTF04, DYTF05, DYTF06, DYTF07, DBNF09, DBSF10, DYTF11, DBNF13, and DBSF14, and in July 2024 at DNSF15 and DNSF18. The snow columns report site means from measurements collected during the January 2024 and January 2025 visits.
 
 | **Station ID** | **Summer visit** | **Soil-moisture spot readings[^1] (%; material and nominal depth)** | **Frost-probe thaw depth[^2]: mean [range] (cm), n**| **Jan 2024 mean snow depth / density (cm / kg m⁻³)** | **Jan 2025 mean snow depth / density (cm / kg m⁻³)** |
 |:---|:---:|:---:|:---:|:---:|:---:|
