@@ -43,7 +43,7 @@ All published timestamps are in Coordinated Universal Time (UTC).
 Sites are ordered from north to south. P2-P4 values are vertical offsets downward from P1. Negative longitude denotes west.
 
 | **Region** | **Station ID** | **Latitude** (°) | **Longitude (°)** | **Elevation (m)** | **Record period** | **Air-sensor height (m)** | **P1 installation position** | **P2-P4 offsets below P1 (cm)** |
-|---|---:|---:|---:|---:|---|---:|---|---|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | North Slope Coastal Plain | DNSF15 | 69.579838 | -148.670741 | 145.41 | 2025-01-11 to 2025-09-23 | 0.94 | Within organic layer | 10.5, 23.0, 34.5 |
 | North Slope Coastal Plain | DNSF18 | 69.529292 | -148.593929 | 162.18 | 2024-07-23 to 2026-08-08 | 1.30 | Within organic layer | 12.33, 24.67, 37.0 |
 | Brooks Range, northern foothills | DBNF09 | 69.452173 | -148.638054 | 227.28 | 2023-08-03 to 2026-08-20 | 1.00 | Within organic layer | 8.0, 21.0, 34.0 |
@@ -63,7 +63,7 @@ Sites are ordered from north to south. P2-P4 values are vertical offsets downwar
 Vegetation descriptions and height ranges are local field observations. 
 
 | **Station ID** | **Organic-layer thickness (cm)** | **Observed vegetation height (cm)** | **Field vegetation description** | **Reported soil texture** | **Permafrost zone** |
-|---|---:|---:|---|---|---|
+|---:|:---:|:---:|:---:|:---:|:---:|
 | DNSF15 | 40 | 20.32-33.02 | Wet sedge-cottongrass tundra with scattered dwarf shrubs | Loam | Continuous |
 | DNSF18 | 20 | 22.86-38.10 | Wet sedge-cottongrass tundra with sparse dwarf shrubs | Loam | Continuous |
 | DBNF09 | 10.1 | 12.70-43.18 | Tussock-sedge tundra with sparse dwarf shrubs and moss-lichen cover | Silt loam | Continuous |
@@ -83,8 +83,8 @@ Permafrost zones follow the Alaska classification of [Jorgenson et al. (2008), *
 
 The summer visit date applies to the soil-moisture spot readings and frost-probe thaw-depth measurements. Measurements were collected in August 2023 at DBSF03, DYTF04, DYTF05, DYTF06, DYTF07, DBNF09, DBSF10, DYTF11, DBNF13, and DBSF14, and in July 2024 at DNSF15 and DNSF18. The exact July sampling days were not recorded in the supplied field table. The snow columns report site means from measurements collected during the January 2024 and January 2025 visits.
 
-| **Station ID** | **Summer visit** | **Soil-moisture spot readings (%; material and nominal depth)** | **Frost-probe thaw depth: mean [range] (cm), n**| **Jan 2024 mean snow depth / density (cm / kg m⁻³)** | **Jan 2025 mean snow depth / density (cm / kg m⁻³)** |
-|---|---|---|---:|---:|---:|
+| **Station ID** | **Summer visit** | **Soil-moisture spot readings[^1] (%; material and nominal depth)** | **Frost-probe thaw depth[^2]: mean [range] (cm), n**| **Jan 2024 mean snow depth / density (cm / kg m⁻³)** | **Jan 2025 mean snow depth / density (cm / kg m⁻³)** |
+|:---|:---:|:---:|:---:|:---:|:---:|
 | DNSF15 | 2024-07, day not recorded | No readings reported | 32.0 [30.0-34.5], *n* = 10 | Not measured | 28.5 / 201.5 |
 | DNSF18 | 2024-07, day not recorded | No readings reported | 39.0 [29.5-49.5], *n* = 10 | Not measured | 28.7 / 239.3 |
 | DBNF09 | 2023-08-02 | Between tussocks: 46.4; tussock top: 43.8; north-, east-, and west-wall material at 10 cm: 24.1, 4.7, 7.0; south-wall mineral soil at 25 cm: 45.6; at 38 cm: 41.9 | 46.2 [37.0-60.0], *n* = 10 | Not measured | 42.0 / 280.0 |
@@ -96,9 +96,10 @@ The summer visit date applies to the soil-moisture spot readings and frost-probe
 | DYTF04 | 2023-08-08 | Top organic layer at 7 cm: 0.0, 3.3; decomposed layer at 16.5 cm: 43.8, 23.9; mineral soil at 20 cm: 43.5; 7 cm above the permafrost table: 42.9; surface peat moss: 0.0 | 46.8 [36.0-67.0], *n* = 11 | 61.4 / 237.8 | 77.8 / 191.4 |
 | DYTF05 | 2023-08-09 | Top peat moss at 0 cm: 13.5; middle fresh peat moss at 5 cm: 26.5, 26.9; mineral material at 24 cm: 38.2, 36.9 | 53.4 [40.0-61.8], *n* = 11 | 78.8 / 274.5 | 87.9 / 239.2 |
 | DYTF06 | 2023-08-12 | Top organic layer at 0 cm: 0.0, 0.0; middle organic layer at 8.75 cm: 0.0, 2.7; middle mineral soil at 34 cm: 37.2, 40.7; mineral soil at 43.5 cm: 38.2, 38.6 | 50.0 [39.0-63.0], *n* = 11 | 49.2 / 203.2 | 54.7 / 199.2 |
-| DYTF11 | 2023-08-12 | Top organic material at 0 cm: 0.0, 14.3, 7.5; organic layer at 15 cm: 2.5, 17.4, 1.8; pebbly silt at 52 cm: 31.9, 30.5 | 61.1 [52.5-69.9], *n* = 6 | 35.1 / 237.0 | 38.1 / 277.0 |
+| DYTF11 | 2023-08-12 | Top organic material at 0 cm: 0.0, 14.3, 7.5; organic layer at 15 cm: 2.5, 17.4, 1.8; pebbly silt at 52 cm: 31.9, 30.5 | 61.1 [52.5-69.9], *n* = 6 | 35.1 / 237.0 | 38.1 / 277.0 | 
 
-Soil-moisture values are individual microsite readings rather than continuous measurements or site means. Values of 0.0 are reported measurements, not missing values. The supplied field table reports the values in percent but does not identify whether they are volumetric, gravimetric, or instrument-relative percentages. The field sheet labels the frost-probe measurements as active-layer depths; the more conservative term *thaw depth* is used here because the measurements represent conditions on the visit date and are not necessarily the annual maximum active-layer thickness. Snow density is reported in the source as g L⁻¹, which is numerically equivalent to kg m⁻³.
+[^1]: Soil-moisture values are individual microsite readings rather than continuous measurements or site means. Values of 0.0 are reported measurements, not missing values.
+[^2]: The frost-probe measurements are active-layer depths measurements using temperature probing rod (depth at which 0°C is reached); the more conservative term *thaw depth* is used here because the measurements represent conditions on the visit date and are not necessarily the annual maximum active-layer thickness. 
 ---
 
 ## 3. Dataset content
@@ -132,7 +133,7 @@ Data/Alaska-COLD_DYTF11.csv
 The following variables occur in each station file:
 
 | **Column** | **Unit** | **Description** |
-|---|---|---|
+|:---|:---:|:---|
 | `Timestamp_UTC` | UTC | Hourly timestamp in `yyyy-MM-dd HH:mm:ss` format |
 | `AirTemp_C` | °C | Near-surface air temperature |
 | `GroundTemp_<depth>cm_C` | °C | Ground temperature at the probe-relative depth indicated in the column name |
@@ -145,7 +146,7 @@ For decimal depths, `p` replaces the decimal point. For example, `GroundTemp_12p
 The CR350 station files for DBSF03 and DYTF06 may include the following published variables. Availability and valid coverage differ by station.
 
 | **Column** | **Unit** | **Description** |
-|---|---:|---|
+|:---|:---:|:---|
 | `IncomingShortwave_Wm2_Avg` | W m⁻² | Hourly average incoming shortwave radiation |
 | `LiquidPrecipitation_mm_Tot` | mm | Hourly liquid-precipitation total; this is not total precipitation and does not measure snowfall |
 | `RelativeHumidity_pct_HourEndSample` | % | Relative humidity sampled at the end of the hour |
@@ -173,7 +174,7 @@ Where provided, the corresponding quality-control column is named `QC_<variable>
 Quality-control tests are applied to temperature and available auxiliary observations. Flagged values are retained so users can apply filtering rules appropriate to their analysis.
 
 | QC flag | Meaning | Recommended interpretation |
-|---:|---|---|
+|:---:|:---|:---|
 | 0 | Pass | No tested issue was identified |
 | 1 | Suspect | Retain only when the application can tolerate the documented uncertainty |
 | 2 | Fail | Exclude from ordinary quantitative analysis |
